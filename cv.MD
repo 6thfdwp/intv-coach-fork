@@ -10,9 +10,11 @@
 Staff-caliber engineer with 15+ years building production distributed systems, specializing in
 AI-powered infrastructure and agentic automation. Chartered an agentic engineering team and
 architected LLM-backed messaging systems serving millions of messages daily across multiple
-regions. Consistent track record of eliminating operational complexity by encoding domain
-expertise into intelligent automation that compounds over time. Deep expertise in distributed
-systems (Event Sourcing, CQRS, DDD), Go, and Claude API-backed agentic workflow design.
+regions. Independently designed and built multi-vendor LLM platforms with distributed async
+pipelines and continuous model benchmarking. Consistent track record of eliminating operational
+complexity by encoding domain expertise into intelligent automation that compounds over time.
+Deep expertise in distributed systems (Event Sourcing, CQRS, DDD), Go, Python, and multi-LLM
+agentic workflow design.
 
 ---
 
@@ -39,12 +41,28 @@ systems (Event Sourcing, CQRS, DDD), Go, and Claude API-backed agentic workflow 
 
 ## Projects
 
+### capaper.org — Agentic Research Platform *(Side Project)*
+**Python, Azure** | [In Development]
+
+End-to-end preprint paper discovery and verification platform powered by agentic LLM workflows.
+
+- Designed provider-agnostic LLM abstraction layer supporting multiple vendors (OpenAI,
+  Anthropic, and others) across all research workflows — enabling per-task cost/quality
+  routing decisions without downstream code changes
+
+- Architected distributed async pipeline for compute-intensive LLM tasks using Azure Queue
+  Storage and Azure Functions — horizontally scalable to 2000+ concurrent deep paper reviews
+
+- Built continuous benchmarking pipeline to evaluate and validate LLM quality across
+  venue-specific review criteria — enabling evidence-based model selection and regression
+  detection as new model versions ship
+
 ### Open Source
 
 - **Parse Server** (NodeJS, Express) — Contributed third-party authentication adapter for
   Facebook phone number login to Facebook's open-sourced API server (merged in v2.7.3)
 
-### Side Projects
+### Other Side Projects
 
 - **React Profiler** — Babel plugin to automatically aggregate React rendering across the
   entire component hierarchy for identifying excessive re-renders
@@ -53,14 +71,14 @@ systems (Event Sourcing, CQRS, DDD), Go, and Claude API-backed agentic workflow 
 
 ## Skills
 
-**AI / Automation:** Claude API, Agentic Workflow Design, LLM-powered tooling,
-Prompt Engineering, Multi-step Agent Orchestration
+**AI / Automation:** Claude API, OpenAI API, Multi-vendor LLM Abstraction, Agentic Workflow
+Design, LLM Benchmarking & Evaluation, Prompt Engineering, Multi-step Agent Orchestration
 
 **Architecture:** Event Sourcing, CQRS, Domain-Driven Design, Distributed Systems,
 Microservices
 
-**Cloud / Infrastructure:** AWS (ECS, Lambda, SQS), Azure, Docker, Terraform,
-GitHub Actions
+**Cloud / Infrastructure:** AWS (ECS, Lambda, SQS), Azure (Queue Storage, Functions),
+Docker, Terraform, GitHub Actions
 
 **Programming:** Go, TypeScript, Python, .NET Core
 
