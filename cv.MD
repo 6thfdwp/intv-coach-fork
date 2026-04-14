@@ -24,18 +24,13 @@ agentic workflow design.
 **Senior Software Engineer**
 [Start Date] – Present
 
-- Architected and shipped zero-breaking-change localisation platform across 3 regions and
-  10+ locales for all communication channels (email, SMS) — maintaining 1M+ msgs/day
-  throughput with no production disruptions, serving 2M+ messages in continuous operation
-  (Go, AWS Lambda, Event Sourcing, CQRS)
+- Architected localisation platform (Go, AWS Lambda, Event Sourcing, CQRS) across 3 regions
+  and 10+ locales — incremental rollout compressed new-market launches from weeks to days,
+  zero breaking changes, core comms engine serving 2M+ messages continuously
 
-- Designed and deployed Claude-powered agentic system to automate locale market launches,
-  compressing weeks of per-market manual work to hours and producing PR-standard commits
-  reviewable in minutes — directly unlocking go-to-market expansion into South America and EU
-
-- Chartered agentic engineering team to replace static template-based SMS with LLM-backed
-  live message generation, defining the technical strategy to shift communication
-  infrastructure from rigid templating to context-aware, intelligent delivery at scale
+- Scoped, defined technical strategy, and launched agentic SMS generation initiative in
+  3 weeks — gradual per-country rollout with live metrics monitoring against the incumbent
+  templating system; LLM-generated messages outperformed on open, click, and conversion rates
 
 ---
 
